@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+#firstButton{
+    font-size: 4vh;
+    border: none;
+    cursor: pointer;
+}
+#SecondButton{
+    font-size: 4vh;
+    border: none;
+    cursor: pointer;
+}
+#ThirdButton{
+    font-size: 4vh;
+    border: none;
+    cursor: pointer;
+}
+#FourthButton{
+    font-size: 4vh;
+    border: none;
+    cursor: pointer;
+}
+#FifthButton{
+    font-size: 4vh;
+    border: none;
+    cursor: pointer;
+}
+.image>img{
+    border: 2px solid red;
+    width: 22vw;
+    height: 35vh;
+    border-radius: 15px;
+}
+.price>p{
+    font-size: 23px;
+}
+.itemname>p{
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.description>p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.description{
+    /* border: 2px solid red; */
+    width: 42vh;
+}
+.threeitem{
+    /* border: 2px solid red; */
+    width: 45vh;
+    margin-left: 14vh;
+}
+.allitem{
+    border: 2px solid red;
+    width: 22vw;
+}
+.allitemTwo{
+    border: 2px solid green;
+    display: flex;
+}

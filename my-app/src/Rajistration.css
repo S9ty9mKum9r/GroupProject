@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./FoodImage.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container{
+border: 2px solid rgb(156, 151, 151);
+width: 50vh;
+height: 66vh;
+background-color: white;
+margin-top: 18vh;
+margin-left: 35vw;
+border-radius: 13px; 
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head>button{
+    border: 2px solid red;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.inputfieldOne{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(124, 121, 121);
+    width: 35vh;
+    height: 5vh;
+    border-radius: 12px;
+    margin-left: 5vw;
+}
+.single>input{
+    margin-left: 12px;
+    font-size: 17px;
+    margin-top: 5px;
+    border: none;
+    outline: 0;
+}
+.firstbutton>button{
+    border: none;
+    background-color: white;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.inputtwo{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(138, 134, 134);
+    width: 35vh;
+    height: 5vh;
+    border-radius: 12px;
+    margin-left: 5vw;
+}
+.inputEmail>input{
+    margin-left: 12px;
+    font-size: 17px;
+    margin-top: 5px;
+    border: none;
+    outline: 0;
+}
+.buttonsecond>button{
+    border: none;
+    margin-top: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.sbtn>button{
+    border: 2px solid red;
+    width: 35vh;
+    height: 5vh;
+    border-radius: 12px;
+    margin-left: 5vw;
+    font-size: 22px;
+    background-color: red;
+    color: white;
+    margin-top: 45px;
+}
+#text{
+    margin-left: 3vh;
+}
+.head>button{
+    
+    margin-right: 2vh;
+}
+.inputone>p{
+    margin-left: 3vh;
+    margin-bottom: 15px;
+}
+.Emailtext>p{
+    margin-left: 3vh;
+    margin-bottom: 15px;
+}
+.lastbutton{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 40vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.lastbutton>button{
+    border: none;
+    background-color: white;
+    margin-right: 5vh;
+    cursor: pointer;
+    color: red;
+    font-size: 25px;
+}
+.lastbutton>p{
+    font-size: 16px;
+}
