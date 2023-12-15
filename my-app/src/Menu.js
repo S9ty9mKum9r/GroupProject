@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Menu.css';
+import './CSSPages/Menu.css';
 function MenuPage() {
   const [dataone, setdataone] = useState([]);
   const [datatwo, setdatatwo] = useState([]);
@@ -46,11 +46,9 @@ function MenuPage() {
   const ClickFour = () => {
     setDisplayedData(datafour);
   };
-
   const ClickFive = () => {
     setDisplayedData(datafive);
   };
-
   useEffect(() => {
     fetchdata();
   }, []);

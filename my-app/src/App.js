@@ -1,6 +1,6 @@
 import React from 'react'
 // import FilteredItem from './FilteredItem'
-import Menu from './Menu'
+// import Menu from './Menu'
 // import BoxMeals from './BoxMeals'
 // import MenuPage from './MenuPage'
 // import ChickenBucket from './ChickenBucket'
@@ -9,7 +9,7 @@ import Menu from './Menu'
 // import Landing from './Landing'
 // import LogInPage from './LogInPage'
 // import Rajistration from './Rajistration'
-// import Homepage from './Homepage';
+import Homepage from './Homepage';
 function App() {
   return(
     <div>
@@ -19,8 +19,8 @@ function App() {
       {/* <HotLunch/> */}
       {/* <HotDeals/> */}
       {/* <ChickenBucket/> */}
-      <Menu/>
-      {/* <Homepage /> */}
+      {/* <Menu/> */}
+      <Homepage />
       {/* <Landing/> */}
       {/* <LogInPage/> */}
       {/* <Rajistration /> */}
